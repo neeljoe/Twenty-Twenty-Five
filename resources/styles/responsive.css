@@ -1,1 +1,13 @@
-/* Responsive / media queries */
+@media (prefers-reduced-motion: reduce) {
+	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-dialog {
+		animation-duration: 0.01ms !important;
+	}
+
+	.wp-block-navigation__submenu-container {
+		transition-duration: 0.01ms !important;
+	}
+
+	.search-toggle-panel {
+		transition-duration: 0.01ms !important;
+	}
+}

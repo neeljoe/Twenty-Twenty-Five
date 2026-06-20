@@ -721,6 +721,11 @@
 			"area": "uncategorized",
 			"name": "sidebar",
 			"title": "Sidebar"
+		},
+		{
+		"area": "navigation-overlay",
+		"name": "navigation-overlay",
+		"title": "Mobile Navigation Overlay"
 		}
 	],
 	"customTemplates": [

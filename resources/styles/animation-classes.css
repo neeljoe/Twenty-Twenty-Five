@@ -1,1 +1,9 @@
-/* Animation utility classes */
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-dialog {
+	animation: unfold-mat 0.5s cubic-bezier(0, 0, 0.2, 1) both;
+	transform-origin: top center;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open.closing .wp-block-navigation__responsive-dialog {
+	animation: fold-mat 0.5s cubic-bezier(0, 0, 0.2, 1) both;
+	transform-origin: top center;
+}

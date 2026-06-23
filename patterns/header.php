@@ -14,6 +14,9 @@
 ?>
 <!-- wp:group {"align":"full","className":"site-header","backgroundColor":"base","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull site-header has-base-background-color has-background">
+<!-- wp:group {"style":{"color":{"gradient":"linear-gradient(135deg,rgb(14,152,231) 0%,rgb(155,81,224) 100%)"},"dimensions":{"minHeight":"8px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-background" style="background:linear-gradient(135deg,rgb(14,152,231) 0%,rgb(155,81,224) 100%);min-height:8px"></div>
+<!-- /wp:group -->
     <!-- wp:group {"className":"header-content-wrapper","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group header-content-wrapper"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="margin-top:0"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->

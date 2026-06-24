@@ -80,10 +80,12 @@ if ( ! function_exists( 'twentytwentyfive_enqueue_interactivity' ) ) :
 			wp_enqueue_script_module(
 				'twentytwentyfive-interactivity',
 				get_parent_theme_file_uri( 'public/js/interactivity.js' ),
-				array(),
+				array( '@wordpress/interactivity' ),
 				filemtime( $path )
 			);
 		}
+
+		wp_interactivity_state( 'disney', array() );
 	}
 endif;
 add_action( 'wp_enqueue_scripts', 'twentytwentyfive_enqueue_interactivity' );

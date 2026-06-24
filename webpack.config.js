@@ -13,6 +13,9 @@ module.exports = {
 	experiments: {
 		outputModule: true,
 	},
+	externals: {
+		'@wordpress/interactivity': 'module @wordpress/interactivity',
+	},
 	resolve: {
 		extensions: ['.js'],
 	},

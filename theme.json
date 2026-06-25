@@ -7,6 +7,28 @@
 			"defaultDuotone": false,
 			"defaultGradients": false,
 			"defaultPalette": false,
+			"gradients": [
+				{
+					"gradient": "linear-gradient(135deg,rgb(3,111,113) 0%,rgb(0,82,6) 100%)",
+					"name": "Hero Gradient Green",
+					"slug": "hero-gradient-green"
+				},
+				{
+					"gradient": "linear-gradient(135deg,rgb(45,77,154) 0%,rgb(8,60,93) 100%)",
+					"name": "Hero Gradient Blue",
+					"slug": "hero-gradient-blue"
+				},
+				{
+					"gradient": "linear-gradient(135deg,rgb(248,61,65) 0%,rgb(140,0,54) 100%)",
+					"name": "Hero Gradient Red",
+					"slug": "hero-gradient-red"
+				},
+				{
+					"gradient": "linear-gradient(135deg,rgb(144,42,169) 0%,rgb(94,25,119) 100%)",
+					"name": "Hero Gradient Purple",
+					"slug": "hero-gradient-purple"
+				}
+			],
 			"palette": [
 				{
 					"color": "#FFFFFF",
@@ -19,17 +41,17 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#FFEE58",
+					"color": "#f84141",
 					"name": "Accent 1",
 					"slug": "accent-1"
 				},
 				{
-					"color": "#F6CFF4",
+					"color": "#2d4d99",
 					"name": "Accent 2",
 					"slug": "accent-2"
 				},
 				{
-					"color": "#503AA8",
+					"color": "#07726f",
 					"name": "Accent 3",
 					"slug": "accent-3"
 				},
@@ -220,10 +242,10 @@
 						"css": ".wp-block-button__link:not(.has-background):hover {background-color:color-mix(in srgb, var(--wp--preset--color--contrast) 5%, transparent);}",
 						"spacing": {
 							"padding": {
-								"bottom": "calc(1rem - 1px)",
+								"bottom": "calc(0.7rem - 1px)",
 								"left": "calc(2.25rem - 1px)",
 								"right": "calc(2.25rem - 1px)",
-								"top": "calc(1rem - 1px)"
+								"top": "calc(0.7rem - 1px)"
 							}
 						}
 					}
@@ -596,7 +618,7 @@
 		"elements": {
 			"button": {
 				"color": {
-					"background": "var:preset|color|contrast",
+					"background": "var:preset|color|accent-2",
 					"text": "var:preset|color|base"
 				},
 				":focus": {
@@ -607,7 +629,7 @@
 				},
 				":hover": {
 					"color": {
-						"background": "color-mix(in srgb, var(--wp--preset--color--contrast) 85%, transparent)",
+						"background": "color-mix(in srgb, var(--wp--preset--color--accent-2) 85%, transparent)",
 						"text": "var:preset|color|base"
 					},
 					"border": {
@@ -616,14 +638,15 @@
 				},
 				"spacing": {
 					"padding": {
-						"bottom": "1rem",
+						"bottom": "0.7rem",
 						"left": "2.25rem",
 						"right": "2.25rem",
-						"top": "1rem"
+						"top": "0.7rem"
 					}
 				},
 				"typography": {
-					"fontSize": "var:preset|font-size|medium"
+					"fontSize": "var:preset|font-size|small",
+					"fontWeight": "600"
 				}
 			},
 			"caption": {
